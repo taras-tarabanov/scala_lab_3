@@ -7,9 +7,9 @@
   # Use https://search.nixos.org/packages to find package
   
   packages = [
-    pkgs.jdk21
-    (pkgs.scala_3.override { jre = pkgs.jdk21; })
-    (pkgs.sbt.override { jre = pkgs.jdk21; })
+    pkgs.jdk8
+    (pkgs.scala_3.override { jre = pkgs.jdk8; })
+    (pkgs.sbt.override { jre = pkgs.jdk8; })
     # pkgs.python311Packages.pip
     # pkgs.nodejs_20
     # pkgs.nodePackages.nodemon
